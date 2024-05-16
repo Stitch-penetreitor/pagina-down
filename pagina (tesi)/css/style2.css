@@ -1,0 +1,49 @@
+body{
+    background-color: chartreuse;
+}
+/*general*/
+.central{
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+   
+    width: 320px;
+    height: 200px;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+/*cuadro del login*/
+.cuadro1{
+    display: flex;
+    flex-direction: column;
+    width:250px ;
+    text-align: center;
+    background-color: wheat;
+}
+.cuadro1 .campo{
+    border: none;
+    background-color: wheat;
+    border-bottom: 2px solid black;
+    margin: 5px 10px ;
+}
+.cuadro1 .boton{
+    border-radius: 5px;
+    margin: 5px 10px ;
+    border: none;
+    background-color: rgb(236, 196, 122);
+    
+}
+/*cuadro del texto*/
+.cuadro2{
+    text-align: center;
+    border-radius: 70px 10px 40px 10px;
+    background-color: aquamarine;
+}
+.cuadro2 :hover{
+    transition-property: all 2s ease-in-out;
+    border-radius: 10px 70px 10px 40px;
+
+}
