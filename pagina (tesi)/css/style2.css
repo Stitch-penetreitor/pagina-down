@@ -5,9 +5,9 @@ body{
 .central{
     display: flex;
     position: absolute;
-    top: 35%;
-    left: 30%;
-   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     width: 320px;
     height: 200px;
     justify-content: space-around;
@@ -38,12 +38,11 @@ body{
 }
 /*cuadro del texto*/
 .cuadro2{
-    text-align: center;
-    border-radius: 70px 10px 40px 10px;
-    background-color: aquamarine;
+    transition-duration: 0.5s;
+    background: grey;
 }
-.cuadro2 :hover{
-    transition-property: all 2s ease-in-out;
+.cuadro2:hover{
+    background: indigo;
     border-radius: 10px 70px 10px 40px;
 
 }
